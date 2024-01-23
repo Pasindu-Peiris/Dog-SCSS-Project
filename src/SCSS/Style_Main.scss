@@ -1,5 +1,6 @@
 @import "./SCSScolor/Color.scss";
 @import "./SCSSfont/Font.scss";
+@import "./SCSSBasiccode/Basic.scss";
 
 * {
     margin: 0%;
@@ -29,4 +30,15 @@ a {
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+}
+nav{
+    @include flex-block;
+    min-height: 10px;
+    padding: 20px 5%;
+}
+
+.logo img{
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
 }
