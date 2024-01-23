@@ -9,6 +9,22 @@
 }
 
 body{
+    height: 100vh;
     background-color:$primary-color;
     @include font-collection;
+}
+
+ul{
+    list-style-type: none;
+}
+button {
+    text-decoration: dotted;
+    color: black;
+    background-color: chartreuse;
+}
+
+.menu-button{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
 }
