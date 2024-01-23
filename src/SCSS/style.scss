@@ -1,6 +1,8 @@
 @import './SCSScolor/Color.scss';
+@import './SCSSfont/Font.scss';
 
 *{
     margin: auto;
     background-color:$primary-color;
+    font-family: $font-family;
 }
