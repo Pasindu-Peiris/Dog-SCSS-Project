@@ -2,7 +2,13 @@
 @import './SCSSfont/Font.scss';
 
 *{
-    margin: auto;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
     background-color:$primary-color;
     @include font-collection;
 }
