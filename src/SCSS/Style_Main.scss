@@ -51,4 +51,9 @@ nav{
 .menu-button button{
     padding: 13px 25px;
     background-color: $button-color-on;
+    @include button;
+}
+
+#button-2{
+    background-color: $button-color-off;
 }
