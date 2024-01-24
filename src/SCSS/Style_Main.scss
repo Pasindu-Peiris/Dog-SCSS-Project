@@ -13,6 +13,7 @@ body {
     height: 100vh;
     background-color: $primary-color;
     @include font-collection;
+    min-height: 200vh;
 }
 
 ul {
@@ -42,4 +43,12 @@ nav{
     height: 70px;
     object-fit: contain;
     object-position: center;
+}
+.menu-button{
+    width: auto;
+
+}
+.menu-button button{
+    padding: 13px 25px;
+    background-color: $button-color-on;
 }
