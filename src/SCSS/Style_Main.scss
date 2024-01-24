@@ -32,6 +32,7 @@ a {
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 nav {
     @include flex-block;
@@ -52,6 +53,7 @@ nav {
     background-color: $button-color-off;
     @include button;
     font-weight: map-get($fontWeight,"bold");
+  
 }
 .menu-button button a {
     color: $font-color-dark;
@@ -61,4 +63,23 @@ nav {
 }
 #button-2 a {
     color: $font-color-light;
+}
+
+.text-block{
+    width: 450px;
+    height: auto;
+    text-align: justify;
+    top: 20%;
+    left: 18%;
+    transform: translate(18%, 20%);
+}
+.text-block h1{
+    font-size: map-get($map: $fontSize, $key:"Big" );
+    margin:0px 0px  10px 0px;
+}
+.second{
+    margin: 25px 0px;
+}
+.second .ser{
+    padding: 13px 55px;
 }
