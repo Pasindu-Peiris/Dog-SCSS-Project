@@ -1,36 +1,33 @@
-
-@mixin flex-block{
+@mixin flex-block {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-@mixin flex-blok-center{
+@mixin flex-blok-center {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
-@mixin flex-center{
+@mixin flex-center {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-@mixin button{
+@mixin button {
     border: none;
     outline: none;
     margin: 0px 10px 0px 0px;
-    border-radius:2px;
+    border-radius: 2px;
 }
 
-@mixin icon{
-    font-size: 1.1rem;
-    color:#0b0a0a;
+@mixin icon {
+    font-size: 1rem;
+    color: #0b0a0a;
     margin: 0px 5px 0px 0px;
 }
