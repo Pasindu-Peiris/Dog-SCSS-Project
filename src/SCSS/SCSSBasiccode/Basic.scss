@@ -31,3 +31,15 @@
     color: #0b0a0a;
     margin: 0px 5px 0px 0px;
 }
+
+@mixin bg-img{
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin text-box{
+    width: 450px;
+    height: auto;
+    text-align: justify;
+}
