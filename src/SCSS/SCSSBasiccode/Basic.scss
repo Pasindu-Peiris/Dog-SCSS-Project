@@ -19,6 +19,12 @@
     justify-content: center;
 }
 
+@mixin flex-center-block{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 @mixin button {
     border: none;
     outline: none;
