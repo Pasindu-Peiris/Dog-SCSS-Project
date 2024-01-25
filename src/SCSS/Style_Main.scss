@@ -83,3 +83,6 @@ nav {
 .second  .ser{
     padding: 13px 55px;
 }
+.fa-solid{
+    @include icon;
+}
