@@ -86,3 +86,18 @@ nav {
 .fa-solid{
     @include icon;
 }
+
+/*-- second section --*/
+#second-section{
+    width: 100%;
+    min-height: 20vh;    
+    @include flex-center;
+   
+}
+#second-section a img{
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    margin: 0px 30px;
+}
