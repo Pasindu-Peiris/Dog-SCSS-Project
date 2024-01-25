@@ -92,6 +92,7 @@ nav {
     width: 100%;
     min-height: 20vh;    
     @include flex-center;
+    flex-wrap: wrap;
    
 }
 #second-section a img{
