@@ -50,8 +50,7 @@ nav {
     padding: 13px 25px;
     background-color: $button-color-off;
     @include button;
-    font-weight: map-get($fontWeight,"bold");
-  
+    font-weight: map-get($fontWeight, "bold");
 }
 .menu-button button a {
     color: $font-color-dark;
@@ -63,35 +62,34 @@ nav {
     color: $font-color-light;
 }
 
-.text-block{
+.text-block {
     @include text-box;
     top: 20%;
     left: 32%;
     transform: translate(32%, 20%);
 }
-.text-block h1{
-    font-size: map-get($map: $fontSize, $key:"Big" );
-    margin:0px 0px  10px 0px;
+.text-block h1 {
+    font-size: map-get($map: $fontSize, $key: "Big");
+    margin: 0px 0px 10px 0px;
 }
-.second{
+.second {
     margin: 25px 0px;
 }
-.second  .ser{
+.second .ser {
     padding: 13px 55px;
 }
-.fa-solid{
+.fa-solid {
     @include icon;
 }
 
 /*-- second section --*/
-#second-section{
+#second-section {
     width: 100%;
-    min-height: 20vh;    
+    min-height: 20vh;
     @include flex-center;
     flex-wrap: wrap;
-   
 }
-#second-section a img{
+#second-section a img {
     width: 100px;
     object-fit: cover;
     object-position: center;
@@ -100,34 +98,48 @@ nav {
     filter: grayscale(1);
     opacity: 0.6;
 }
-#second-section a img:hover{
-    
+#second-section a img:hover {
     filter: grayscale(0);
     opacity: 1;
     transition: all ease-in-out 0.9s;
 }
 
 /*--- About section ---*/
-#about{
+#about {
     width: 100%;
-    height: 83vh;
+    height: 90vh;
     @include flex-blok-center;
     background-image: url("/src/Img/all\ bg.png");
     @include bg-img;
     background-size: contain;
-   
 }
-.text-about{
+.text-about {
     @include text-box;
     text-align: start;
     width: 500px;
     flex-direction: column;
 }
-.text-about h1{
+.text-about h1 {
     margin: 20px 0px;
-    font-size: map-get($map: $fontSize, $key:"Big" );
+    font-size: map-get($map: $fontSize, $key: "Big");
 }
-.text-about h5{
+.text-about h5 {
     color: $button-color-on;
-   
+}
+.info-head {
+    @include flex-center-block;
+}
+
+/*--- info section ---*/
+#info{
+    width: 100%;
+    height: 83vh;
+    padding: 50px;
+}
+.info-head h1{
+    margin: 10px 0px;
+    font-size: map-get($map: $fontSize, $key: "Big");
+}
+.info-head h5 {
+    color: $button-color-on;
 }
