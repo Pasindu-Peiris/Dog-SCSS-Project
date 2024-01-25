@@ -18,4 +18,11 @@
     border: none;
     outline: none;
     margin: 0px 10px 0px 0px;
+    border-radius:2px;
+}
+
+@mixin icon{
+    font-size: 1.1rem;
+    color:#0b0a0a;
+    margin: 0px 5px 0px 0px;
 }
