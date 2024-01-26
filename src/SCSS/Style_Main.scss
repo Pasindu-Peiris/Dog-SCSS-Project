@@ -1,6 +1,7 @@
 @import "./SCSScolor/Color.scss";
 @import "./SCSSfont/Font.scss";
 @import "./SCSSBasiccode/Basic.scss";
+@import "./SCSSMOBRes/MobRes.scss";
 
 * {
     margin: 0%;
@@ -203,3 +204,11 @@ nav {
     font-size: map-get($map: $fontSize, $key:"large");
     margin: 10px 0px;
 }
+footer{
+    width: 100%;
+    @include flex-center;
+    padding: 15px;
+    background-color: $font-color-dark;
+    color: $font-color-light;
+}
+
