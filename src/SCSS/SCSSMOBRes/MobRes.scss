@@ -5,6 +5,7 @@
         transform: translate(22%, 20%);
     }
     #first-section{
+        width: 100%;
         background-position: right;
     }
     body{
@@ -42,9 +43,11 @@
     }
     #about,
     #aboutsec{
+        width: 100%;
         height: auto;
         margin: 20px 10px;
         flex-direction: column-reverse;
+        flex-direction: column;
     }
     .text-about {
         width: 100%;
@@ -96,6 +99,9 @@
     #new-buuton{
         display: none;
         
+    }
+    .text-about{
+        width: 100%;
     }
     
 }
