@@ -56,10 +56,12 @@ nav {
 .menu-button button a {
     color: $font-color-dark;
 }
-#button-2 {
+#button-2,
+#button-23 {
     background-color: $button-color-on;
 }
-#button-2 a {
+#button-2 a,
+#button-23 a {
     color: $font-color-light;
 }
 
@@ -114,7 +116,7 @@ nav {
     background-image: url("/src/Img/all\ bg.png");
     @include bg-img;
     background-size: contain;
-    flex-direction: row
+    flex-direction: row;
 }
 .text-about {
     @include text-box;
