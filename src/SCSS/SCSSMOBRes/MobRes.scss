@@ -31,7 +31,8 @@
         height: auto;
         margin: 10px 0px;
     }
-    #about{
+    #about,
+    #aboutsec{
         height: auto;
         margin: 20px 0px;
         flex-direction: column-reverse;
@@ -39,5 +40,10 @@
     .text-about {
         width: 100%;
         padding: 20px;
+    }
+    #contact{
+        flex-direction: column;
+        width: auto;
+        height: auto;
     }
 }
