@@ -133,7 +133,7 @@ nav {
 /*--- info section ---*/
 #info{
     width: 100%;
-    height: 83vh;
+    min-height: 95vh;
     padding: 50px;
 }
 .info-head h1{
@@ -149,4 +149,20 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     margin: 50px 0px 20px 0px;
+}
+.info-boxs{
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    text-align: justify;
+}
+.fa-paw,
+.fa-home{
+    font-size: map-get($map: $fontSize, $key:"xs" );
+    margin: 10px 0px;
+}
+.info-boxs strong{
+    font-size: map-get($map: $fontSize, $key:"xss" );
+    margin: 10px 0px;
+
 }
