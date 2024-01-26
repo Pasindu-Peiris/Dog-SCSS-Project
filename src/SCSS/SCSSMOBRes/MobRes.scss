@@ -27,6 +27,9 @@
         padding: 10px;
 
     }
+    #first-section{
+        background-position: left;
+    }
     #second-section{
         height: auto;
         margin: 10px 0px;
@@ -34,7 +37,7 @@
     #about,
     #aboutsec{
         height: auto;
-        margin: 20px 0px;
+        margin: 20px 10px;
         flex-direction: column-reverse;
     }
     .text-about {
@@ -45,5 +48,29 @@
         flex-direction: column;
         width: auto;
         height: auto;
+        padding: 30px ;
     }
+    .con-box{
+        width: 100%;
+        margin: 20px 0px;
+    }
+}
+
+@media(max-width:850px){
+    .text-block {
+        top: 0%;
+        left: 0%;
+        transform: translate(0%,0%);
+        width: 100%;
+        margin: 20px 0px;
+        padding: 40px;
+    }
+    .info-block-set{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        margin: 50px 0px 00px 0px;
+    }
+}
+@media(max-width:450px){
+    
 }
