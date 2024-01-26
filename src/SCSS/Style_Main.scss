@@ -182,5 +182,24 @@ nav {
 #contact{
     width: 100%;
     height: 40vh; 
-    @include flex-blok-center;
+    @include flex-center;
+}
+.con-box{
+    width: auto;
+    height: auto;
+    border: 1px solid #e0dfdf;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 25px;
+}
+.con-box h3{
+    font-size: map-get($map: $fontSize, $key:"xss");
+    margin: 10px 0px 15px 0px;
+    text-transform: uppercase;
+    color: $button-color-on;
+
+}
+.con-box  p{
+    font-size: map-get($map: $fontSize, $key:"large");
+    margin: 10px 0px;
 }
