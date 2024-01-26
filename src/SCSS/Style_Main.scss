@@ -157,9 +157,14 @@ nav {
     text-align: justify;
 }
 .fa-paw,
-.fa-home{
+.fa-home,
+.fa-dog,
+.fa-medal,
+.fa-trophy,
+.fa-heartbeat{
     font-size: map-get($map: $fontSize, $key:"xs" );
     margin: 10px 0px;
+    color: $button-color-on;
 }
 .info-boxs strong{
     font-size: map-get($map: $fontSize, $key:"xss" );
